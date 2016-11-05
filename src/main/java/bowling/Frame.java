@@ -54,7 +54,7 @@ class Frame {
     }
 
     boolean isStrike() {
-        return isPlayedAtLeastOnce() && scores.get(0) == 10;
+        return scores.size() > 0 && scores.get(0) == 10;
     }
 
     boolean isSpare() {
@@ -63,10 +63,6 @@ class Frame {
 
     private boolean isNormallyEnded() {
         return scores.size() == 2 && getTotalScore() < 10;
-    }
-
-    private boolean isPlayedAtLeastOnce() {
-        return scores.size() > 0;
     }
 
     private boolean isValidScore(int score) {

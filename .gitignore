@@ -1,0 +1,27 @@
+
+*.class
+/artifacts/
+test_artifacts/
+/out
+*.swp
+# Package Files #
+*.war
+*.ear
+.idea
+*.iml
+tmp/
+logs/
+.gradle/
+build/
+classes/
+gradle-app.setting
+.securityCheck
+*.dump
+/target/
+generated-sources/**
+querydsl/**
+
+.DS_Store
+
+#copied stubs
+.tags*
