@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bowling.FrameTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-11-05T14:23:08" hostname="in-amit-dash.local" time="0.048">
+  <properties/>
+  <testcase name="updatingOnBeingOutOfTurnsShouldThrowException" classname="bowling.FrameTest" time="0.042"/>
+  <testcase name="shouldNotAllowBonusIfNeitherStrikeNorSpare" classname="bowling.FrameTest" time="0.0"/>
+  <testcase name="shouldBeSpareWhenTenPinsAreDownInTwoRolls" classname="bowling.FrameTest" time="0.001"/>
+  <testcase name="shouldOutOfTurnsAfterTwoRolls" classname="bowling.FrameTest" time="0.0"/>
+  <testcase name="shouldBeStrikeWhenTenPinsAreDownOnFirstRoll" classname="bowling.FrameTest" time="0.0"/>
+  <testcase name="shouldUpdateBothRollScoresAsBonusOfPreviousFrameWhenItWasStrike" classname="bowling.FrameTest" time="0.001"/>
+  <testcase name="shouldUpdateTwoPreviousFramesOnThreeStrikeScenario" classname="bowling.FrameTest" time="0.0"/>
+  <testcase name="shouldAllowBonusOnStrike" classname="bowling.FrameTest" time="0.0"/>
+  <testcase name="shouldAllowBonusOnSpare" classname="bowling.FrameTest" time="0.001"/>
+  <testcase name="moreThanAStrikeInAFrameShouldThrowException" classname="bowling.FrameTest" time="0.0"/>
+  <testcase name="invalidScoreShouldThrowException" classname="bowling.FrameTest" time="0.0"/>
+  <testcase name="shouldUpdateFirstRollScoreAsBonusOfPreviousFrameWhenItWasSpare" classname="bowling.FrameTest" time="0.0"/>
+  <testcase name="shouldUpdateTwoPreviousFramesWhenBothWereStrikes" classname="bowling.FrameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
